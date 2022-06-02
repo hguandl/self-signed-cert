@@ -82,3 +82,8 @@ $ openssl pkcs12 -export -in server-cert.pem -inkey server-key.pem -out server-b
 
 - Install the CA certificate to devices.
 - Use the signed certicate for server.
+
+## References
+
+- <https://stackoverflow.com/a/21340898>
+- <https://stackoverflow.com/a/27931596>
