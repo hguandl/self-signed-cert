@@ -87,3 +87,5 @@ $ openssl pkcs12 -export -in server-cert.pem -inkey server-key.pem -out server-b
 
 - <https://stackoverflow.com/a/21340898>
 - <https://stackoverflow.com/a/27931596>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
