@@ -3,7 +3,7 @@
 ## Generate CA
 
 ```shell
-$ openssl req -x509
+$ openssl req -x509 \
     -config ca.conf \
     -newkey rsa:4096 \
     -days 824 \
@@ -66,8 +66,8 @@ $ openssl ca \
     -config ca.conf \
     -policy signing_policy \
     -extensions signing_req \
-    -infiles server.csr \
-    -out server-cert.pem
+    -out server-cert.pem \
+    -infiles server.csr
 ```
 
 > Use `server-cert.pem` and `server-key.pem` for your server. Keep `server-key.pem` secret.
